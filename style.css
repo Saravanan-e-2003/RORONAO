@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --palatte_color: rgb(255, 103, 111);
+}
+
+@font-face {
+    font-family: Zoro;
+    src: url("./Bold\ Marker.ttf");
+}
+
+body{
+    background-color: black;
+    font-family: Zoro;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--palatte_color);
+    margin: 13rem;
+    box-shadow: 50px 50px 0px  bisque;
+    height: 672px;
+}
+
+.embeded-container{
+    margin-top: 50px;
+    width: 65%;
+    height: inherit;
+    margin-left: 200px; 
+}
+
+.embeded-container h1{
+    margin: 30px 0px 400px 40px;
+    width: 60%;
+    font-size: 6rem;
+    color: bisque;
+}
+
+.embeded-container h3{
+    margin: -400px 0px 400px 40px;
+    width: 60%;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: bisque;
+}
+
+.embeded-container p{
+    text-align: justify;
+    width: 1200px;
+    margin: -390px -100px 300px 40px;
+    color: bisque;
+}
+
+
+img{
+    position: relative;
+    margin: 0px 110px -5px 5px;
+    filter: drop-shadow(-27px 0px 0px  bisque);
+    padding-left: 250px;
+}
