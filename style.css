@@ -22,7 +22,7 @@ body{
     background-color: var(--palatte_color);
     margin: 13rem;
     box-shadow: 50px 50px 0px  bisque;
-    height: 672px;
+    height: 450px;
 }
 
 .embeded-container{
@@ -34,8 +34,8 @@ body{
 
 .embeded-container h1{
     margin: 30px 0px 400px 40px;
-    width: 60%;
-    font-size: 6rem;
+    width: 80%;
+    font-size: 5rem;
     color: bisque;
 }
 
@@ -50,15 +50,18 @@ body{
 
 .embeded-container p{
     text-align: justify;
-    width: 1200px;
+    width: 800px;
     margin: -390px -100px 300px 40px;
     color: bisque;
+    font-size: 10px;
 }
 
 
 img{
     position: relative;
-    margin: 0px 110px -5px 5px;
+    margin: 100px 110px -5px -58px;
     filter: drop-shadow(-27px 0px 0px  bisque);
     padding-left: 250px;
+    width: 80%;
+    height: 80%;
 }
